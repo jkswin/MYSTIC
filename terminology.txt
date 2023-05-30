@@ -1,0 +1,21 @@
+Variable
+Data Type
+String
+Integer
+Float
+Boolean
+List
+Tuple
+Dictionary
+Loop
+For Loop
+While Loop
+Conditional
+Function
+Return
+Argument
+Index
+Module
+Package
+Iterate
+Concatenation
