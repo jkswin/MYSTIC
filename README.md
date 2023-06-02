@@ -1,9 +1,11 @@
 # **:mage: MYSTIC :mage:**
 *(**M**aterials for **Y**oung **S**tudents and **T**eachers to **I**mprove and **C**ode)*
 
-## **WIP 02/06/2023** 
+----
+**WIP 02/06/2023**
 Will be updated regularly as I tidy and refactor the additional material
 
+----
 MYSTIC is a collection of materials that effectively combines **self-teaching** and **teaching others**. The materials were originally used to teach Python fundamentals to a class of primary school children, whilst simultaneously providing a weekly challenge to the person delivering the course (i.e. me).
 
 If you use or find this helpful please let me know!
