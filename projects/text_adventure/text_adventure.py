@@ -1,5 +1,3 @@
-#TODO: Add NPC interaction using model
-
 """
 ~~~~ Mini Project: Text Adventure ~~~~
 Time: ~2/3 Hours (3+ Sessions); sometimes they want to keep expanding their stories.
@@ -26,6 +24,7 @@ A pot of different colour whiteboard pens became the perfect prop for understand
 
 import random
 from time import sleep
+from inference import NPC
 
 # add your name as a variable to present to the player in the welcome message
 your_name = "Jake"
@@ -71,9 +70,35 @@ if decision_one == "y":
             sleep(1)
             print(".")
             sleep(1)
-            print("A flock of birds fly out and over you, prompting you to flee and run after them.")
-            print("GAME OVER")
-            quit()
+            print("You look down to find your foot next to a tiny house. A gnome stands beside it...")
+            
+            # Augment with some NLP magic
+            npc = NPC()
+            decision_four = input(npc.greet())
+            sentiment, response = npc.respond(decision_four)
+            print(response)
+            
+            if sentiment == "positive":
+                print("Having spoken with the gnome you feel at ease, making your way peacefully out of the forest.")
+                print("GAME OVER")
+                quit()
+
+            elif sentiment == "neutral":
+                print("You're not quite sure what just happened.\nYou've never met a gnome before.")
+                print("Slightly nervous, you walk back the way you came, checking over your shoulder every so often.")
+                print("GAME OVER")
+                quit()
+
+            elif sentiment == "negative":
+                print("It's apparent that the gnome was not impressed by your response as you hear\nthe little mushroom door slam shut.")
+                print("After a short delay it opens again. A band of 5 or 6 gnomes pursue you as you sprint back to the edge of the tree line.")
+                sleep(2)
+                print("... you just made it.")
+                sleep(1)
+                print("As the sunlight hits the gnomes who follow you out into the open, they all turn to stone.")
+                print("GAME OVER")
+                quit()
+
 
         elif decision_three == "s":
 

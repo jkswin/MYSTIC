@@ -1,3 +1,12 @@
+# temporary WIP documentation
+model_evaluation.ipynb
+model_explanation.ipynb
+feature_extraction.py
+tests.py
+
+# big models
+projects/text_adventure/models/seqnet_linear_enhanceddata.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

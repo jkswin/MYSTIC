@@ -1,0 +1,19 @@
+Note that this data is the property of the respective original publishers/authors.
+It is merely used as an example and is not distributed by me under any license.
+As far as I am aware it is all in the public domain and is being using here for illustrative and educational purposes.
+
+The data sources are as follows:
+
+pokemon_text.json - https://bulbapedia.bulbagarden.net/wiki/Main_Page
+
+yugioh_text.json - https://ygoprodeck.com/
+
+spongebob_transcripts - https://spongebob.fandom.com/wiki/List_of_transcripts
+
+animal_crossing_user_reviews.csv - https://www.kaggle.com/datasets/jessemostipak/animal-crossing
+
+arceus_reviews.csv - https://www.kaggle.com/datasets/brunovr/pokemonarceus 
+
+processed_book_reviews.json - https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews 
+
+Additional dialogue data - https://github.com/ricsinaruto/gutenberg-dialog 

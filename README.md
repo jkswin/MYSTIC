@@ -2,7 +2,7 @@
 *(**M**aterials for **Y**oung **S**tudents and **T**eachers to **I**mprove and **C**ode)*
 
 ----
-**WIP 02/06/2023**
+**WIP 12/06/2023**
 Will be updated regularly as I tidy and refactor the additional material
 
 ----
@@ -41,9 +41,9 @@ How is this useful?
 
 **2. [Text Adventure](projects/text_adventure/)**
 
-    A classic choose-your-own-adventure style setup that focuses on conditional statements and nesting them to get the desired paths within your code. Most decision points are simple 2 option forks with yes/no, left/right questions etc. The improved version also allows for natural language interaction with "characters" using a many-to-one RNN to predict player sentiment and fork paths based on the output.
+    A classic choose-your-own-adventure style setup that focuses on conditional statements and nesting them to get the desired paths within your code. Most decision points are simple 2 option forks with yes/no, left/right questions etc. The improved version also allows for natural language interaction with "characters" using a 'Stupid Transformer' model to predict player sentiment and fork paths based on the output. The entire system uses only numpy.
     
-- Materials: `text_adventure.py`, `rnn.py`
+- Materials: `text_adventure.py`, `pos_neural.py`, `inference.py`
 
 **3. [Treasure Hunt](projects/treasure_hunt/)**
 
